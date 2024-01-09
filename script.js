@@ -124,8 +124,13 @@ function generatePassword() {
   if (confirm("Would you like special characters?")) {
     charset = charset.concat(specialCharacters);
   }
-}
 
+var password = '';
+for (var i = 0; i < options; i++) {
+  password += getRandom(charset);
+}
+return password;
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
