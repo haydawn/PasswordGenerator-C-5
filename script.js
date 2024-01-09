@@ -106,9 +106,29 @@ function getRandom(arr) {
   return arr[randomIndex];
 }
 
+// Function to generate a password with user input
+function generatePassword() {
+  var options = getPasswordOptions();
+  var charset = [];
+  
+  // Combine character sets based on user preferences
+  if (confirm("Would you like lowercase characters?")) {
+    charset = charset.concat(lowerCasedCharacters);
+  }
+  if (confirm("Would you like uppercase characters?")) {
+    charset = charset.concat(upperCasedCharacters);
+  }
+  if (confirm("Would you like numeric characters?")) {
+    charset = charset.concat(numericCharacters);
+  }
+  if (confirm("Would you like special characters?")) {
+    charset = charset.concat(specialCharacters);
+  }
+}
+
 // Function to generate password with user input
 function generatePassword() {
-
+  var options = getPasswordOptions();
 }
 
 // Get references to the #generate element
