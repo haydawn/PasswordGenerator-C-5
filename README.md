@@ -18,18 +18,16 @@ I have been tasked with creating an app that generates a random password based o
 
 ## Completed Console Display Screenshot
 
-![]( )
+![Generated Password](assets/passowordGen2.png )
 
+![Password Prompt](assets/passowordGen1.png )
 
-## How I Approached this Project
+![Demo File ](assets/05-javascript-challenge-demo.png )
 
-```Pseudocode
-
-```
 
 
 ## References
-[W3 Schools ](https://www.w3schools.com/js/default.asp )
+[W3 Schools ](assets/05-javascript-challenge-demo.png )
 
 
 ## Deployed Project Link 
