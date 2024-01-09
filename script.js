@@ -126,10 +126,6 @@ function generatePassword() {
   }
 }
 
-// Function to generate password with user input
-function generatePassword() {
-  var options = getPasswordOptions();
-}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
